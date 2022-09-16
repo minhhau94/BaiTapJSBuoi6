@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BC37_BaiTapNopBuoi16+BaiTapThemBuoi16_TranMinhHau</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- BT1 -->
+    <div class="ex1">
+        <div class="container">
+            <header class="header">
+                <h2 class="title">BÀI TẬP 1: TÌM SỐ NGUYÊN DƯƠNG NHỎ NHẤT</h2>
+            </header>
+            <main class="main">
+                <button onclick="ex1()">Xem kết quả</button>
+                <p><i class="fa-solid fa-angles-right"></i><span id="result"></span></p>
+            </main>
+        </div>
+    </div>
+
+    <!-- BT2 -->
+    <div class="ex2">
+        <div class="container">
+            <header class="header">
+                <h2 class="title">BÀI TẬP 2: TÍNH TỔNG</h2>
+            </header>
+            <main class="main">
+                <form class="form" action="">
+                    <input id="numberX" placeholder="Nhập số x" type="number">
+                    <input id="numberN" placeholder="Nhập số n" type="number">
+                </form>
+                <button onclick="ex2()">Tính tổng</button>
+                <p><i class="fa-solid fa-angles-right"></i><span id="calcsum"></span></p>
+            </main>
+        </div>
+    </div>
+
+    <!-- BT3 -->
+    <div class="ex3">
+        <div class="container">
+            <header class="header">
+                <h2 class="title">BÀI TẬP 3: TÍNH GIAI THỪA</h2>
+            </header>
+            <main class="main">
+                <form class="form" action="">
+                    <input id="num" placeholder="Nhập số n" type="number">
+                </form>
+                <button onclick="ex3()">Tính</button>
+                <p><i class="fa-solid fa-angles-right"></i><span id="calcfactorial"></span></p>
+            </main>
+        </div>
+    </div>
+
+    <!-- BT4 -->
+    <div class="ex4">
+        <div class="container">
+            <header class="header">
+                <h2 class="title">BÀI TẬP 4: TẠO THẺ DIV</h2>
+            </header>
+            <main class="main">
+                <button id="click" onclick="changeBackground()">Tạo Div</button>
+                <div class="addDiv" id="addDiv">
+                    <p></p>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- BT5 -->
+    <div class="ex5">
+        <div class="container">
+            <header class="header">
+                <h2 class="title">BÀI TẬP 5: IN SỐ NGUYÊN TỐ</h2>
+            </header>
+            <main class="main">
+                <form class="form" action="">
+                    <input id="number" placeholder="Nhập số n" type="number">
+                </form>
+                <button onclick="printInteger()">In số nguyên tố</button>
+                <p><i class="fa-solid fa-angles-right"></i><span id="printInteger"></span></p>
+            </main>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

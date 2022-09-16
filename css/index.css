@@ -1,0 +1,77 @@
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #dff9fb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ex1, 
+.ex2, 
+.ex3, 
+.ex4, 
+.ex5{
+    margin: 50px;
+}
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.21);
+    border-left: 5px solid #fd79a8;
+    border-radius: 10px;
+}
+.title{
+    font-size: 30px;
+    padding: 20px 0 10px 0;
+    color: #2980b9;
+    font-weight: 700;
+}
+.main i{
+    color: #e67e22;
+    padding-right: 20px;
+}
+.form input{
+    padding: 10px 20px;
+    margin: 2px 5px 10px 0;
+    font-size: 15px;
+    border: 2px solid #e67e22;
+    color: #2980b9;
+    background-color: transparent;
+    font-weight: 400;
+    overflow: hidden;
+    transition: all 0.5s linear 0s;
+}
+.form input:hover{
+    border: 2px solid #f9ca24
+}
+.main button{
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: #16a085;
+    border: 1px solid transparent;
+    font-size: 15px;
+    color: #fff;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.5s linear 0s;
+}
+.main button:hover{
+    background-color: #6ab04c;
+}
+.main p{
+    color: #e67e22;
+    font-size: 20px;
+    background-color: #7ed6df;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #00b894;
+}
+.addDiv {
+    display: none;
+    padding: 20px 10px;
+    color: #fff;
+}
